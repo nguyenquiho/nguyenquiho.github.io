@@ -1,3 +1,3 @@
-document.ready(function(){
-  alert("Xin chào");
+$(document).ready(function(){
+    alert("xin chào");
 });
