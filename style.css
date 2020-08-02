@@ -61,12 +61,12 @@ ul li{
     margin-bottom: 25px;
 }
 
-h5.title-infor-left {
+h4.title-infor-left {
 
 	margin: 25px 0px;
 }
 
-h5.title-infor-right {
+h4.title-infor-right {
     text-transform: uppercase;
     color: orange;
     border-bottom: 2px solid #c1c1c1;
