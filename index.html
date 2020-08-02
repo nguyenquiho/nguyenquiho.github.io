@@ -1,46 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Nguyễn Quí Hổ</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script type="text/javascript" src="main.js"></script>
 	</style>
 </head>
+
 <body>
 	<div class="container">
-		<h1> Nguyễn Quí Hổ (PHP Developer)</h1>
-		<div class="information">
-			<b>Ngày sinh: </b><i>08/02/1998</i>
+		<div class="row topcv">
+			<div class="col-md-5 topcv-left"></div>
+			<div class="col-md-7 topcv-right">
+				<h2 class="full-name">Nguyễn Quí Hổ</h2>
+				<h4 class="dev-what">Lập trình viên PHP</h4>
+			</div>
 		</div>
-		<div class="information">
-			<h3>MỤC TIÊU NGHỀ NGHIỆP: </h3>
-			<p>
-				Áp dụng những kiến thức đã học vào thực tiễn, không ngừng học tập và tiếp thu những kiến thức, công nghệ mới.
-			</p>
-		</div>
-		<div class="information">
-			<h3>HỌC VẤN: </h3>
-			<h4>ĐẠI HỌC GIAO THÔNG VẬN TẢI TP. HCM</h4>
-		</div>
-		<div class="information">
-			<h3>PROJECT CÁ NHÂN: </h3>
-			<h4>Website cá nhân</h4>
-			<h4>Website cá nhân</h4>
-			<h4>Website cá nhân</h4>
-		</div>
-		<div class="information">
-			<h3>SỞ THÍCH: </h3>
-			Đá bóng, chạy<br>
-			Dòng này được thêm vào
-			Thêm dòng thứ 2
+		<div class="row">
+			<div class="col-md-5 left-content">
+				<div id="avt"></div>
+				<h4 class="title-infor-left">Thông tin cơ bản</h4>
+				<span class="dob">08/02/1998</span><br>
+				<span class="sex">Nam</span><br>
+				<span class="phone">0965 106 196</span><br>
+				<span class="email">quyhonguyen@gmail.com</span><br>
+				<span class="add">Tô Ký, Q.12, Tp. Hồ Chí Minh</span><br>
+					<!-- <li class="infor-item6"></li> -->
+				</ul>
 
+				<h4 class="title-infor-left">Mục tiêu nghề nghiệp</h4>
+				<p id="target-job">
+					Không ngừng học hỏi trao dồi những kiến thức về lập trình để phát triển kỹ năng chuyên môn.<br>
+					Mục tiêu trong 1 năm tới, tôi sẽ trở thành 1 lập trình viên PHP chuyên nghiệp và học thêm lập trình Nodejs, Python.
+				</p>
+
+				<h4 class="title-infor-left">Kỹ năng</h4>
+				<span>Tìm kiếm, đọc hiểu tài liệu tiếng anh chuyên môn</span>
+				<div class="percent-bar">
+					<div class="row">
+						<div class="col-md-5 percent"></div>
+						<div class="col-md-5 hundred"></div>
+					</div>
+				</div>
+
+				<span>PHP</span>
+				<div class="percent-bar">
+					<div class="row">
+						<div class="col-md-6 percent"></div>
+						<div class="col-md-4 hundred"></div>
+					</div>
+				</div>
+
+				<span>Javascript</span>
+				<div class="percent-bar">
+					<div class="row">
+						<div class="col-md-5 percent"></div>
+						<div class="col-md-5 hundred"></div>
+					</div>
+				</div>
+
+				<span>MySql</span>
+				<div class="percent-bar">
+					<div class="row">
+						<div class="col-md-6 percent"></div>
+						<div class="col-md-4 hundred"></div>
+					</div>
+				</div>
+
+
+
+				<span>Thành thạo các công cụ Editor, Git</span>
+				<div class="percent-bar">
+					<div class="row">
+						<div class="col-md-6 percent"></div>
+						<div class="col-md-4 hundred"></div>
+					</div>
+				</div>
+
+				<!-- <h4 class="title-infor-left">Chứng chỉ</h4>
+				<ul class="list-certificate-item">
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul> -->
+
+				<h4 class="title-infor-left">Sở thích</h4>
+				<p>
+					- Lập trình <br>
+					- Đá bóng <br>
+					- Nghe nhạc <br>
+				</p>
+			</div>
+
+			<div class="col-md-7 right-content">
+				<h4 class="title-infor-right">Học vấn</h4>
+				<h5>Đại học Giao thông vận tải thành phố Hồ Chí Minh</h5>
+				<p>
+					Ngành học: Công nghệ thông tin<br>
+					Chuyên ngành: Kỹ sư phần mềm<br>
+					Xếp loại: Khá
+				</p>
+
+				<h4 class="title-infor-right">Kinh nghiệm làm việc</h4>
+				<h5>Công ty cổ phần công nghệ Bizapp</h5>
+				<p>
+					Vị trí: Lập trình viên PHP<br>
+					- Xây dựng các module
+				</p>
+
+				<h4 class="title-infor-right">Dự án tham gia</h4>
+				<h5>+ Đồ án Web bán hàng bằng PHP thuần</h5>
+				<h5>+ Đồ án Web bán hàng sử dụng Framwork Laravel</h5>
+				<h5>+ Dự án Bảo hiểm Biznet</h5>
+
+			</div>
 		</div>
 
-		</div>
 
 
 
+	</div>
 </body>
+
 </html>
