@@ -61,17 +61,13 @@ ul li{
     margin-bottom: 25px;
 }
 
-h4.title-infor-left {
-
-	margin: 25px 0px;
-}
+h4.title-infor-left {margin: 15px 0px;}
 
 h4.title-infor-right {
     text-transform: uppercase;
     color: orange;
     border-bottom: 2px solid #c1c1c1;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 .one-skill {
