@@ -13,6 +13,7 @@ body{
 }
 
 .dev-what{
+	padding-left: 50px;
 	text-transform: uppercase;
 }
 .row.topcv {
@@ -42,9 +43,39 @@ ul li{
 #avt{
 	width: 180px;
 	background-image: url(images/avt.PNG);
-	height: 225px;
+	height: 235px;
 	margin: 0px auto;
 	margin-top: -135px;
 	border: 5px double orange;
 	overflow: hidden;
+}
+
+.title-infor-left{
+	border-left: 5px solid #898989;
+	text-transform: uppercase;
+	color: orange;
+	padding-left: 10px;
+}
+
+#avt {
+    margin-bottom: 25px;
+}
+
+h4.title-infor-left {
+
+	margin: 25px 0px;
+}
+
+h4.title-infor-right {
+    text-transform: uppercase;
+    color: orange;
+    border-bottom: 2px solid #c1c1c1;
+    padding: 10px;
+}
+
+.one-skill {
+    margin-bottom: 10px;
+}
+.row.topcv {
+    padding: 10px;
 }
