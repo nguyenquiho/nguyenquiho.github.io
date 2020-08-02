@@ -39,6 +39,9 @@ ul li{
 .right-content{
 	background: #f9f0e0;
 }
+.left-content .phone a{
+	color: #212529;
+}
 
 #avt{
 	width: 180px;
