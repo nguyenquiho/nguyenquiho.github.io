@@ -49,11 +49,13 @@ ul li{
 #avt{
 	width: 180px;
 	background-image: url(images/avt.PNG);
+	background-repeat: no-repeat;
 	height: 235px;
 	margin: 0px auto;
 	margin-top: -135px;
 	border: 5px double orange;
 	overflow: hidden;
+	margin-bottom: 25px;
 }
 
 .title-infor-left{
@@ -61,10 +63,6 @@ ul li{
 	text-transform: uppercase;
 	color: orange;
 	padding-left: 10px;
-}
-
-#avt {
-    margin-bottom: 25px;
 }
 
 h4.title-infor-left {
